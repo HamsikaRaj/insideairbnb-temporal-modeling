@@ -9,6 +9,24 @@ This project analyzes seasonal patterns and builds predictive models for nightly
 - XGBoost and Neural Network models
 - TensorBoard-based training analysis
 
+## Dataset Source
+
+All data comes from **InsideAirbnb**:
+
+https://insideairbnb.com/get-the-data/
+
+For each city, the following archived snapshots are used:
+
+- **Austin:** December 14, 2024 and March 6, 2025  
+- **Chicago:** December 18, 2024 and March 11, 2025  
+- **Santa Cruz:** December 31, 2024 and March 28, 2025  
+- **Washington, DC:** December 18, 2024 and March 13, 2025  
+
+> **Note:** Raw InsideAirbnb CSV files are **not included** in this repository.
+> Please download them manually and place them in the expected directory
+> structure before running the notebook.
+
+
 ## How to Run
 1. Place InsideAirbnb raw data under `data/raw/{city}/{snapshot_date}/`
 
